@@ -2651,5 +2651,72 @@ swordof:
     Hit_Events:
         Enable: true
         Sounds_Shooter: block_enchantment_table_use-0.2-2-0,block_enchantment_table_use-0.2-0-0,entity_player_attack_sweep-1-3-2,entity_player_attack_nodamage-0-0-4
+yousei:
+    Item_Information:
+        Item_Name: "&e&l妖精郷&fの&3門&f"
+        Item_Type: 403
+        Item_Lore: "&a&l自爆"
+        Sounds_Acquired: PISTON_RETRACT-1-2-0
+    Shooting:
+        Right_Click_To_Shoot: false
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0.6
+        Recoil_Amount: 0.5
+        Projectile_Amount: 1
+        Projectile_Type: arrow
+        Projectile_Speed: 10
+        Projectile_Damage: 1000
+        Bullet_Spread: 0.2
+        Remove_Bullet_Drop: true
+        Sounds_Shoot: entity_irongolem_hurt-1-2-0,ENTITY_BLAZE_hurt-1-3-0,block_anvil_break-1-1-0,ENTITY_WITHER_SHOOT-3-3-0
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Bullets_Individually: false
+        Reload_Duration: 200
+        Sounds_Out_Of_Ammo: ENTITY_BLAZE_hurt-1-3-0
+        Sounds_Reloading: PISTON_RETRACT-1-2-0
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: PISTON_RETRACT-1-2-0,PISTON_RETRACT-1-2-3
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Headshot:
+        Enable: true
+        Bonus_Damage: 1
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: SHOOT_ARROW-1-2-0
+    Extras:
+        One_Time_Use: false
+    Potion_Effects: 
+        Activation: shoot
+        Potion_Effect_Shooter: wither-1000-127,poison-1000-127
+    Explosions:
+        Enable: true
+        Knockback: 6
+        Ignite_Victims: 0
+        Damage_Multiplier: 400
+        Enable_Friendly_Fire: true
+        Enable_Owner_Immunity: false
+        Explosion_No_Damage: false
+        Explosion_No_Grief: true
+        Explosion_Radius: 20
+        Explosion_Incendiary: false
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+        Projectile_Activation_Time: 0
+        Sounds_Shooter: PISTON_RETRACT-1-2-0
+        Sounds_Victim: PISTON_RETRACT-1-2-0
+        Sounds_Explode: PISTON_RETRACT-1-2-0
+        Message_Victim: "&4&l0w0"
+    Particles:
+        Enable: true
+        Particle_Terrain: true
+        Particle_Player_Shoot: block_break-133,block_break-95,smoke 
+        
         
 
