@@ -2429,6 +2429,77 @@ vss:
     Hit_Events:
         Enable: true
         Sounds_Shooter: SHOOT_ARROW-1-2-0
+rorsch:
+    Item_Information:
+        Item_Name: "&8&lRorsch_MK1"
+        Item_Type: 293
+        Item_Lore: "&c&l種別(&e&lrail gun&c&l)|&c&l機構(&e&lbolt&c&l)|&c&l特殊弾(&e&lEXPSabot&c&l)"
+        Sounds_Acquired: ENTITY_BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 20
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 150
+        Projectile_Damage: 25
+        Bullet_Spread: 1
+        Sounds_Shoot: entity_creeper_hurt-15-0-10,entity_creeper_death-4-0-10,block_anvil_destroy-1-0-1,BLOCK_ANVIL_PLACE-2-2-0,NOTE_BASS_DRUM-4-0-0,IRONGOLEM_HIT-1-2-0,SKELETON_HURT-1-2-0,ZOMBIE_WOOD-2-2-0,ENTITY_WITHER_SHOOT-1-3-0,ENTITY_WITHER_HURT-3-0-0,ENTITY_WITHER_BREAK_BLOCK-2-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0.5
+    Reload:
+        Enable: true
+        Reload_Amount: 1
+        Reload_Bullets_Individually: false
+        Reload_Duration: 60
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: entity_creeper_primed-4-2-10,BLOCK_IRON_DOOR_OPEN-1-1-4,BLOCK_IRON_DOOR_CLOSE-1-1-36
+    Firearm_Action:
+        Type: slide
+        Close_Duration: 10
+        Close_Shoot_Delay: 12
+        Sound_Close: ENTITY_PARROT_IMITATE_BLAZE-1-2-0
+    Scope:
+        Enable: true
+        Zoom_Amount: 7
+        Zoom_Bullet_Spread: 0
+        Sounds_Toggle_Zoom: ENTITY_ELDER_GUARDIAN_HURT-1-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Headshot:
+        Enable: true
+        Bonus_Damage: 8
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: ENTITY_ARROW_SHOOT-1-2-0
+    Extras:
+        One_Time_Use: false
+    Explosions:
+        Enable: true
+        Knockback: 0
+        Ignite_Victims: 0
+        Damage_Multiplier: 2
+        Enable_Friendly_Fire: true
+        Enable_Owner_Immunity: true
+        Explosion_No_Damage: false
+        Explosion_Potion_Effect: WITHER-5-2
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Incendiary: false
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+        Projectile_Activation_Time: 0
+        Sounds_Shooter: ENTITY_CREEPER_PRIMED-2-2-0
+        Sounds_Victim: ENTITY_CREEPER_PRIMED-2-2-0
+        Sounds_Explode: ENTITY_CREEPER_PRIMED-2-2-0
+    Particles:
+        Enable: true
+        Particle_Terrain: true
+        Particle_Player_Shoot: block_break-41
 KSG:
     Item_Information:
         Item_Name: "&eKel-Tec KSG"
